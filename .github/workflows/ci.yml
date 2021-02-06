@@ -109,7 +109,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{secrets.DOCKERHUB_PASSWORD}}
-          short-description: 'A ChRIS ts app to copy filtered directories'
+          short-description: 'A ChRIS ts app to efficiently copy one or more obj storage directories'
           readme-filepath: ./README.rst
           repository: ${{ steps.determine.outputs.repo }}
 

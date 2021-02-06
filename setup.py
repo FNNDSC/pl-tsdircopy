@@ -6,8 +6,8 @@ with open(path.join(path.dirname(path.abspath(__file__)), 'README.rst')) as f:
 
 setup(
     name             = 'tsdircopy',
-    version          = '0.2',
-    description      = 'A plugin ts app to copy filtered output directories from many input plugin instances',
+    version          = '1.0',
+    description      = 'A plugin ts app to efficiently copy one or more obj storage directories',
     long_description = readme,
     author           = 'FNNDSC',
     author_email     = 'dev@babyMRI.org',
