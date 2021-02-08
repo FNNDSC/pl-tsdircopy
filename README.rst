@@ -1,5 +1,5 @@
 pl-tsdircopy
-================================
+============
 
 .. image:: https://img.shields.io/docker/v/fnndsc/pl-tsdircopy
     :target: https://hub.docker.com/r/fnndsc/pl-tsdircopy
@@ -44,7 +44,7 @@ Usage
             [-v <level>] [--verbosity <level>]
             [--version]
             <outputDir>
-            [--dir <DIR>]
+            --dir <DIR>
             [--plugininstances <instances>]
             [-f <filter>] [--filter <filter>]
 
@@ -78,7 +78,7 @@ Arguments
         <outputDir>
         Output directory.
 
-        [--dir <DIR>]
+        --dir <DIR>
         Required, it's a string representing a comma-separated list of one or more
         directories.
 

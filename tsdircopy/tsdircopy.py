@@ -40,7 +40,7 @@ Gstr_synopsis = """
             [-v <level>] [--verbosity <level>]                         
             [--version]                                                
             <outputDir> 
-            [--dir <DIR>]
+            --dir <DIR>
             [--plugininstances <instances>]                            
             [-f <filter>] [--filter <filter>]                          
 
@@ -82,7 +82,7 @@ Gstr_synopsis = """
         <outputDir> 
         Output directory.
         
-        [--dir <DIR>] 
+        --dir <DIR> 
         Required, it's a string representing a comma-separated list of one or more 
         directories.
         
