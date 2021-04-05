@@ -47,6 +47,7 @@ Usage
             --dir <DIR>
             [--plugininstances <instances>]
             [-f <filter>] [--filter <filter>]
+            [-g] [--groupByInstance]
 
 
 Arguments
@@ -89,6 +90,10 @@ Arguments
         [-f <filter>] [--filter <filter>]
         If specified, it's a string representing a comma-separated list of regular
         expressions.
+
+        [-g] [--groupByInstance]
+        If specified then an output directory is created for each input plugin instance
+        within this plugin app's output path
 
 
 Getting inline help is:
